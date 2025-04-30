@@ -6,12 +6,14 @@ result
 # TAKS 2 - modify mage.accordion widget
 
 result
+
 ![image](https://github.com/user-attachments/assets/0fb2ac75-a6c9-4585-98a0-94074292c5f8)
 
 
 # TAKS 3 - modify mage.tooltip widget
 
 result
+
 ![image](https://github.com/user-attachments/assets/c4d8c908-a3db-4c54-812e-c6ce2d5f920e)
 
 
