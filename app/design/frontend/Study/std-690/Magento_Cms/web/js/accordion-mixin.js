@@ -5,7 +5,6 @@ define(['jquery'], function ($) {
         return $.widget('mage.accordion', accordionWidget, {
             _create: function () {
                 this._super();
-                console.log(this)
                 this._addIconToHeader();
             },
 
@@ -22,7 +21,6 @@ define(['jquery'], function ($) {
                     console.log($(this).parent().next())
                     const isOpen = $(this).parent().next().is(':visible');
                     $icon.toggleClass("accordion-opened-icon", isOpen);
-
                 });
             }
         });

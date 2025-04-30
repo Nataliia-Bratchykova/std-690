@@ -6,6 +6,9 @@ let config ={
             },
             'mage/accordion':{
                 'Magento_Cms/js/accordion-mixin':true
+            },
+            'mage/tooltip':{
+                "js/tooltip-mixin":true
             }
         }
     },

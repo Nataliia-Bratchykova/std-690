@@ -10,3 +10,30 @@ div[data-role="collapsible"]:hover{
 .accordion-opened-icon{
     rotate:90deg;
 }
+
+//  for tooltip
+
+.show-tooltip-animation{
+    animation: show-tooltip .3s ease;
+    max-width: 120px;
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 16px;
+    position: absolute;
+    top: 42%;
+    left: 10%;
+    z-index: 10;
+}
+
+@keyframes show-tooltip {
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
